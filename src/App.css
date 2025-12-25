@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.MainBox {
+    background-color: rgb(252, 136, 136);
+    padding: 100px 200px;
+    width: 100%;
+    height: 1000px;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+    width: 700px;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ulBox ul{
+    list-style-type: none;
+}
+.ulBox ul li{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.ulBox ul li.checked{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(252, 136, 136);
+    text-decoration: line-through;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bottomBox{
+    margin: 0 auto;
+    background-color: aqua;
+    display: flex;
+    width: 500px;
+}
+.bottomBox p,button{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
