@@ -1,0 +1,60 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "phone": "19061202519",
+      "password": "3366"
+    }
+  ],
+  "cate": [
+    {
+      "id": 1,
+      "name": "vue",
+      "icon": "vue-icon"
+    },
+    {
+      "id": 2,
+      "name": "react",
+      "icon": "react-icon"
+    },
+    {
+      "id": 3,
+      "name": "js相关",
+      "icon": "js-icon"
+    },
+    {
+      "id": "c223",
+      "name": "vue3"
+    },
+    {
+      "id": "5dc6",
+      "name": "vue2"
+    },
+    {
+      "id": "144b",
+      "name": "vue4"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "cateId": 2,
+      "title": "js常见面试题",
+      "content": ""
+    },
+    {
+      "id": "b3cb",
+      "cateId": 1,
+      "title": "vue介绍",
+      "content": "费劲儿五百桂萼uTV TV无花果入侵改日我改日u缺乏威风威风",
+      "status": "published"
+    },
+    {
+      "id": "ad6b",
+      "cateId": 1,
+      "title": "vue3",
+      "content": "阮如琼太热情他",
+      "status": "published"
+    }
+  ]
+}
